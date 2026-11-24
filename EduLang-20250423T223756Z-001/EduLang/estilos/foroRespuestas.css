@@ -1,0 +1,72 @@
+.preguntaRespuesta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+
+.preguntaIn {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 12.5%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.respuestasT {
+    width: 40%;
+    height: auto;
+    
+}
+
+.respuestasT h1{
+    margin: 15px;
+    font-size: 30px;
+}
+
+.respuestaAlum {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-weight: bolder;
+    font-size: 80%
+}
+.preguntaA {
+    font-size: 80%;
+}
+
+.nomnrePreguntador {
+    font-weight: bolder;
+    font-size: 80%
+}
+.preguntaSo {
+    font-size: 80%;
+}
+
+.hacerR {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+    margin-top: 15px;
+}
+
+.escribeR {
+    width: 90%;
+    font-size: 20px;
+}
+.btnEnviarRes {
+    width: 25px;
+}

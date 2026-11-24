@@ -1,0 +1,72 @@
+  
+  
+/*----------------------------------------------*/
+.inforG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    gap: 200px;
+}
+
+.navegarAC{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38b6ff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 10px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* Hace que el cursor se convierta en mano al pasar */
+    transition: background-color 0.3s ease; /* Animación suave en hover */
+    margin-top: 10px;
+}
+
+.ponerDatos {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 8%;
+    
+}
+
+.recuadroInfo {
+    width: 700px;
+    height: auto;
+    margin-left: 25%;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px
+}
+
+.tituloInfo {
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 100%;
+}
+
+.datosGenerales {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.datosAlum {
+    font-size: 75%;
+}
+
+.inputAlum {
+    font-size: 75%;
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+

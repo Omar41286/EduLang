@@ -1,0 +1,47 @@
+.reciboTabla {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.titulos {
+    font-size: 30px;
+}
+
+.btnsubirConfirmar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38b6ff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 10px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* Hace que el cursor se convierta en mano al pasar */
+    transition: background-color 0.3s ease; /* Animación suave en hover */
+    margin: 10px;
+}
+
+.btnEliminar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d41b16; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 10px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* Hace que el cursor se convierta en mano al pasar */
+    transition: background-color 0.3s ease; /* Animación suave en hover */
+    margin: 10px;
+}
+
+.imgPdf{
+    width: 50px;
+    height: auto;
+}

@@ -1,0 +1,47 @@
+.horarioNota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin: 30px;
+}
+
+.horario h3{
+    font-size: 30px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.opciones {
+    margin-bottom: 15px;
+}
+
+.btnAceptar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38b6ff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 10px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* Hace que el cursor se convierta en mano al pasar */
+    transition: background-color 0.3s ease; /* Animación suave en hover */
+    margin-top: 10px;
+}
+
+.nota {
+    width: 600px;
+    height: auto;
+}
+
+.nota h1 {
+    font-size: 45px;
+}
+
+.nota p {
+    font-size: 20px;
+}

@@ -1,0 +1,71 @@
+/* Menú */
+.menu {
+    position: fixed;
+    top: 138px; /* Ajusta para separarlo del encabezado (altura del header + margen) */
+    left: 0;
+    width: 175px; /* Ancho del menú */
+    height: 100%; /* Altura ajustada según el encabezado */
+    background-color: rgba(27, 57, 106, 0.9); /* Azul translúcido */
+    color: white;
+    z-index: 1000; /* Debajo del header */
+    backdrop-filter: blur(8px); /* Efecto de desenfoque opcional */
+    padding-top: 10px; /* Espacio interno */
+}
+
+.menu a {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 14px;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+.iconoMenu {
+    width: 7%; /* Ajusta el tamaño del ícono */
+    height: 7%;
+    margin-left: 10px; /* Espacio entre el texto y el ícono */
+    vertical-align: middle; /* Alinea el ícono con el texto */
+    fill: white;
+}
+
+/* Botón hamburguesa oculto */
+.hamburger {
+    display: none; /* Oculta el botón hamburguesa */
+}
+
+.overlay {
+    display: none; /* Elimina el fondo oscuro */
+}
+
+
+.overlay.active {
+    display: block;
+    /* Visible cuando el menú está abierto */
+}
+
+.hamburgueso {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Asegura que ocupe toda la altura del encabezado */
+}
+
+.menu-separator {
+    border: none;
+    height: 1px;
+    background-color: #f8eb15; /* Color del separador */
+    margin: 10px 0; /* Espaciado */
+    width: 80%; /* Ancho relativo al menú */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+

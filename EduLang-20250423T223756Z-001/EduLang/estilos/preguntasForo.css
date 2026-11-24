@@ -1,0 +1,137 @@
+.preguntasForo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.preguntas {
+    font-size: 14px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.respuestas {
+    text-align: justify;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    
+}
+
+.foro {
+    width: 40%;
+    height: auto;
+}
+.foro h1{
+    margin: 15px;
+    font-size: 150%;
+}
+
+
+.preguntaAlumno {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.preguntaAlumno a {
+    text-decoration: none;
+    color: black;
+}
+
+.nombre {
+    font-weight: bolder;
+    font-size: 80%
+}
+.preguntaA {
+    font-size: 80%;
+}
+
+.hacerP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.escribeR {
+    width: 100%;
+    font-size: 16px;
+}
+.btnEnviarRes {
+    width: 25px;
+}
+
+/* From Uiverse.io by eslam-hany */ 
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 550px;
+    height: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    margin-top: 4%;
+    margin-left: 14%;
+    font-size: 80%;
+    
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+
+  .cover p {
+    font-size: 120%;
+  }
+  
